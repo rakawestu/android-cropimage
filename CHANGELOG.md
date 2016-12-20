@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file. This projec
 [Semantic Versioning](http://semver.org/).
 
 
+## 1.1.1 - 2015-06-03
+
+* Add Indonesian translation.
+
+
 ## 1.1.0 - 2015-03-07
 
 ### Added

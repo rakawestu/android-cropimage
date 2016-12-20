@@ -7,7 +7,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.1.0'
+        classpath 'com.android.tools.build:gradle:1.2.3'
     }
 }
 
@@ -35,7 +35,7 @@ uploadArchives {
             repository(url: "file://repo")
             pom.groupId = 'me.villani.lorenzo.android'
             pom.artifactId = 'android-cropimage'
-            pom.version = '1.1.0'
+            pom.version = '1.1.2'
         }
     }
 }

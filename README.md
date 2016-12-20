@@ -3,7 +3,6 @@
 <img src="https://cdn.rawgit.com/lvillani/android-cropimage/f55253d2be3e6c28a06dd8bdd1e45aa7fd0b22a1/logo.svg" align="right" width="200" height="200"/>
 
 [![License](http://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat)](http://choosealicense.com/licenses/apache-2.0/)
-[![Paid Support](http://img.shields.io/badge/paid_support-available-brightgreen.svg?style=flat)](lorenzo@villani.me)
 
 --------------------------------------------------------------------------------
 
@@ -49,14 +48,8 @@ repositories {
 Then add the dependency to your `dependencies` section:
 
 ```groovy
-compile 'me.villani.lorenzo.android:android-cropimage:1.1.0'
+compile 'me.villani.lorenzo.android:android-cropimage:1.1.+'
 ```
 
 For more information see the `CropImageRepo` example (the project doesn't do anything, it only shows
 how to pull the dependency through Gradle).
-
-
-## Paid Support
-
-I offer part-time paid support to work on extra features and services (such as publishing on Maven
-Central). Request a quote by shooting me an email to <lorenzo@villani.me>.
