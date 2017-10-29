@@ -9,6 +9,24 @@
 The `CropImage` activity extracted from `Gallery.apk` (AOSP 4.4.4). Compatible
 with Android API Level 15 and up.
 
+--------------------------------------------------------------------------------
+
+## :warning: Not Maintained
+
+This project is not maintained anymore. Starting January 2018 the source code will be replaced with
+a deprecation notice. This repository will be decommissioned in June 2018. Both source and binary
+artifact may become unavailable after that point.
+
+--------------------------------------------------------------------------------
+
+## :warning: Maven Repository URL Changed
+
+The Maven repository has been moved to <http://lvillani.github.io/android-cropimage/>. Please see
+the updated documentation and the [example](./CropImageRepo) for more details.
+
+The old repository URL may become unavailable starting January 2018.
+
+--------------------------------------------------------------------------------
 
 ## Android Studio and Gradle
 
@@ -29,8 +47,8 @@ It is contained inside the `CropImageExample` module.
 
 ## Gradle Repository
 
-There's a [Gradle repository](http://lorenzo.villani.me/android-cropimage/) available at
-<http://lorenzo.villani.me/android-cropimage/>.
+There's a [Gradle repository](http://lvillani.github.io/android-cropimage/) available at
+<http://lvillani.github.io/android-cropimage/>.
 
 In your top-level `build.gradle` add the address of the Maven repository to the `repositories`
 section so that it looks like:
@@ -40,7 +58,7 @@ repositories {
     mavenCentral()
 
     maven {
-        url 'http://lorenzo.villani.me/android-cropimage/'
+        url 'http://lvillani.github.io/android-cropimage/'
     }
 }
 ```
